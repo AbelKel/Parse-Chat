@@ -9,6 +9,8 @@
 
 @interface AppDelegate : UIResponder <UIApplicationDelegate>
 
+- (BOOL)application:(UIApplication *)application
+didFinishLaunchingWithOptions:(NSDictionary<UIApplicationLaunchOptionsKey, id> *)launchOptions;
 
 @end
 
